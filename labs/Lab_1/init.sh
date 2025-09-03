@@ -1,7 +1,7 @@
 #!/bin/bash
 
 @echo "Creating Python virtual environment 'MLOps-env"; \
-python3 -m venv MLOps-env; \
+python -m venv MLOps-env; \
 @echo "Activating Python virtual environment 'MLOps-env"; \
 source MLOps-env/bin/activate; 
 @echo "Installing requirements"; \
