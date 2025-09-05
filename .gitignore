@@ -4,8 +4,7 @@ __pycache__/
 *$py.class
 
 # Exclure les gros modèles
-labs/Lab2_SA_with_HuggingFace/imdb-distilbert-sentiment/model.safetensors
-
+labs/Lab2_SA_with_HuggingFace
 
 # C extensions
 *.so
