@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Exclure les gros modèles
+labs/Lab2_SA_with_HuggingFace/imdb-distilbert-sentiment/model.safetensors
+
+
 # C extensions
 *.so
 hide/
