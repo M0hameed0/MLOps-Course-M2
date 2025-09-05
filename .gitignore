@@ -141,8 +141,16 @@ celerybeat.pid
 env/
 venv/
 ENV/
+ENVS\
+ENVS
+ENVS/
+ENVS\HF_SA_MLOps
+ENVS/HF_SA_MLOps
 env.bak/
 venv.bak/
+artifacts/
+mlruns/
+__pycache__/
 
 # Spyder project settings
 .spyderproject
