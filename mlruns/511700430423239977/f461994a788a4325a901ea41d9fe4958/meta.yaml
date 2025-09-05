@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Meed%27x/Desktop/projet/MLOps-Course-M2/project/ml_microservice/mlruns/511700430423239977/f461994a788a4325a901ea41d9fe4958/artifacts
+end_time: 1757080198100
+entry_point_name: ''
+experiment_id: '511700430423239977'
+lifecycle_stage: active
+run_id: f461994a788a4325a901ea41d9fe4958
+run_name: agreeable-mink-900
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757080175637
+status: 3
+tags: []
+user_id: Meed'x

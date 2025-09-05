@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Meed%27x/Desktop/projet/MLOps-Course-M2/project/ml_microservice/mlruns/511700430423239977/models/m-aacfe0243b6f43d99eabede78c042dea/artifacts
+creation_timestamp: 1757080178969
+experiment_id: '511700430423239977'
+last_updated_timestamp: 1757080187983
+model_id: m-aacfe0243b6f43d99eabede78c042dea
+model_type: null
+name: model
+source_run_id: ccb2cede804f469a97606e941e879dcd
+status: 2
+status_message: null

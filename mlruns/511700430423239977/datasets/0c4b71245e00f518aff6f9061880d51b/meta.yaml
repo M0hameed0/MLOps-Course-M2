@@ -1,0 +1,18 @@
+digest: a14a25af
+name: dataset
+profile: '{"num_rows": 8929, "num_elements": 142864}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "age", "required": true},
+  {"type": "string", "name": "job", "required": true}, {"type": "string", "name":
+  "marital", "required": true}, {"type": "string", "name": "education", "required":
+  true}, {"type": "string", "name": "default", "required": true}, {"type": "double",
+  "name": "balance", "required": true}, {"type": "string", "name": "housing", "required":
+  true}, {"type": "string", "name": "loan", "required": true}, {"type": "string",
+  "name": "contact", "required": true}, {"type": "double", "name": "day", "required":
+  true}, {"type": "string", "name": "month", "required": true}, {"type": "double",
+  "name": "duration", "required": true}, {"type": "double", "name": "campaign", "required":
+  true}, {"type": "double", "name": "pdays", "required": true}, {"type": "double",
+  "name": "previous", "required": true}, {"type": "string", "name": "poutcome", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "Meed''x", "mlflow.source.name": "src/train.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "02258563f5a176e9ecc54d649a5eca6148bd4640"}}'
+source_type: code

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Meed%27x/Desktop/projet/MLOps-Course-M2/project/ml_microservice/mlruns/511700430423239977/models/m-38dd6c63911447cbb83b1d700733de0b/artifacts
+creation_timestamp: 1757080191080
+experiment_id: '511700430423239977'
+last_updated_timestamp: 1757080198044
+model_id: m-38dd6c63911447cbb83b1d700733de0b
+model_type: null
+name: best_estimator
+source_run_id: ccb2cede804f469a97606e941e879dcd
+status: 2
+status_message: null

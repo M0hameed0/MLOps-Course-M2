@@ -1,0 +1,25 @@
+data:
+  csv_path: data/raw.csv
+  target: deposit
+  test_size: 0.2
+  random_state: 42
+
+features:
+  numeric: ["age", "balance", "day", "duration", "campaign", "pdays", "previous"]
+  categorical: ["job", "marital", "education", "default", "housing", "loan",
+                "contact", "month", "poutcome"]
+
+model:
+  type: "logreg"  # ou "random_forest"
+  params:
+    logreg__C: [0.1, 1.0, 10.0]
+    logreg__penalty: ["l2"]
+    logreg__solver: ["lbfgs"]
+
+cv:
+  strategy: "StratifiedKFold"
+  n_splits: 5
+  scoring: "roc_auc"
+
+artifacts:
+  out_dir: artifacts

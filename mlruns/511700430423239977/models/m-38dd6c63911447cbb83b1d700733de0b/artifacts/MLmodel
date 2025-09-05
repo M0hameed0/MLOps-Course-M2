@@ -1,0 +1,38 @@
+artifact_path: file:///C:/Users/Meed%27x/Desktop/projet/MLOps-Course-M2/project/ml_microservice/mlruns/511700430423239977/models/m-38dd6c63911447cbb83b1d700733de0b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+is_signature_from_type_hint: false
+mlflow_version: 3.3.2
+model_id: m-38dd6c63911447cbb83b1d700733de0b
+model_size_bytes: 4404
+model_uuid: m-38dd6c63911447cbb83b1d700733de0b
+prompts: null
+run_id: ccb2cede804f469a97606e941e879dcd
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "string",
+    "name": "job", "required": true}, {"type": "string", "name": "marital", "required":
+    true}, {"type": "string", "name": "education", "required": true}, {"type": "string",
+    "name": "default", "required": true}, {"type": "double", "name": "balance", "required":
+    true}, {"type": "string", "name": "housing", "required": true}, {"type": "string",
+    "name": "loan", "required": true}, {"type": "string", "name": "contact", "required":
+    true}, {"type": "double", "name": "day", "required": true}, {"type": "string",
+    "name": "month", "required": true}, {"type": "double", "name": "duration", "required":
+    true}, {"type": "double", "name": "campaign", "required": true}, {"type": "double",
+    "name": "pdays", "required": true}, {"type": "double", "name": "previous", "required":
+    true}, {"type": "string", "name": "poutcome", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-09-05 13:49:51.355427'
